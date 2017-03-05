@@ -55,7 +55,7 @@ button {
   height: 1.5em;
   border-style: solid;;
   font-size: 1.3em;
-  background-color: white;
+  background-color: red;
 }
 #b1:active {
   background-color: grey;
