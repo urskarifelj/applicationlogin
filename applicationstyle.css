@@ -1,0 +1,66 @@
+body {background: url("background.jpg");
+background-repeat: no-repeat;
+}
+form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+p {color: white;
+  font-size: 3em;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: expanded;
+
+
+}
+
+fieldset{background-color: black;
+  opacity: 0.6;
+  border-radius: 5em;
+  text-align: center;
+  font-family: sans-serif;
+  border-style: double;
+  border-width: 1em;
+}
+
+label {font-size: 1.5em;
+  color: white;
+}
+
+div {margin-bottom: 2em;}
+
+input {border-radius: 3em;
+  border-style: solid;
+width: 20em;
+height: 2em;
+font-size: 1.3em;
+text-align: inherit;
+border-width: 0.5em;
+background-color: white;
+
+}
+input:hover {border-style: double;
+
+border-color: inherit;
+
+}
+
+button {
+  border-radius: 5em;
+  width: 7em;
+  height: 1.5em;
+  border-style: solid;;
+  font-size: 1.3em;
+  background-color: white;
+}
+#b1:active {
+  background-color: grey;
+}
+
+#b1:hover {
+  border-style: double;
+}
